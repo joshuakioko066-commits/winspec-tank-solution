@@ -1,0 +1,1558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="icon" type="image/jpeg" href="logo.jpeg">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>
+Winspec Tank Solution | Water Tank Cleaning & Repair Services in Kenya
+</title>
+
+<meta name="description"
+content="Winspec Tank Solution provides professional water tank cleaning, disinfection, inspection, repair and maintenance services for homes, apartments, schools, hotels, factories and commercial facilities across Kenya.">
+
+<meta name="keywords"
+content="water tank cleaning Kenya, tank cleaning Nairobi, water tank repair, tank disinfection services, commercial tank cleaning, fire water tank maintenance, water hygiene solutions Kenya">
+
+<meta name="author"
+content="Winspec Tank Solution">
+
+<meta name="robots"
+content="index, follow">
+
+<meta name="theme-color"
+content="#0d6efd">
+
+<!-- OPEN GRAPH / SOCIAL MEDIA -->
+
+<meta property="og:title"
+content="Winspec Tank Solution | Professional Tank Cleaning Services">
+
+<meta property="og:description"
+content="Professional water tank cleaning, repair, inspection and maintenance services across Kenya.">
+
+<meta property="og:type"
+content="website">
+
+<meta property="og:image"
+content="logo.jpeg">
+
+<meta property="og:locale"
+content="en_KE">
+
+<!-- TWITTER -->
+
+<meta name="twitter:card"
+content="summary_large_image">
+
+<meta name="twitter:title"
+content="Winspec Tank Solution">
+
+<meta name="twitter:description"
+content="Professional water tank cleaning and repair services across Kenya.">
+
+<meta name="twitter:image"
+content="logo.jpeg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+  
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      scroll-behavior:smooth;
+    }
+
+   body{
+  font-family:'Poppins', sans-serif;
+  background:var(--white);
+  color:var(--text);
+  line-height:1.7;
+  overflow-x:hidden;
+}
+
+    :root{
+  --primary:#0d6efd;
+  --secondary:#00b4d8;
+  --green:#38b000;
+  --dark:#06121f;
+  --dark2:#0c1f33;
+  --white:#ffffff;
+  --light:#f5f9ff;
+  --text:#1b1b1b;
+  --shadow:0 10px 30px rgba(0,0,0,0.08);
+  --radius:22px;
+}
+
+.top-bar{
+  background:#020b16;
+  color:#d9e7f5;
+  padding:10px 8%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  font-size:14px;
+  border-bottom:1px solid rgba(255,255,255,0.08);
+}
+
+ header{
+  width:100%;
+  position:fixed;
+  top:40px;
+  z-index:1000;
+  backdrop-filter:blur(14px);
+  background:linear-gradient(90deg,#020617,#031633,#02142b);
+  border-bottom:1px solid rgba(255,255,255,0.08);
+  transition:0.4s;
+}
+
+    nav{
+      width:90%;
+      margin:auto;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      padding:18px 0;
+    }
+
+    .logo{
+      color:var(--white);
+      font-size:28px;
+      font-weight:700;
+    }
+
+   .logo span{
+  color:var(--secondary);
+}
+
+    .nav-right{
+      display:flex;
+      align-items:center;
+      gap:25px;
+    }
+
+    nav ul{
+      display:flex;
+      list-style:none;
+      gap:25px;
+    }
+
+   nav ul li a{
+  color:white;
+  text-decoration:none;
+  font-weight:500;
+  transition:0.3s;
+  position:relative;
+}
+
+nav ul li a::after{
+  content:'';
+  position:absolute;
+  left:0;
+  bottom:-6px;
+  width:0;
+  height:2px;
+  background:var(--secondary);
+  transition:0.3s;
+}
+
+nav ul li a:hover::after{
+  width:100%;
+}
+
+nav ul li a.active{
+  color:var(--secondary);
+}
+
+   nav ul li a:hover{
+  color:var(--secondary);
+}
+
+    /* CALL BUTTON */
+
+    .call-btn{
+      background:#25D366;
+      color:white;
+      padding:12px 22px;
+      border-radius:40px;
+      text-decoration:none;
+      font-weight:600;
+      transition:0.3s;
+      white-space:nowrap;
+    }
+
+    .call-btn:hover{
+      background:white;
+      color:#25D366;
+    }
+
+.btn,
+.btn-outline,
+.call-btn{
+  transition:all 0.3s ease;
+}
+
+    /* HERO */
+
+
+.hero::before{
+  content:'';
+  position:absolute;
+  width:700px;
+  height:700px;
+  background:rgba(13,110,253,0.18);
+  border-radius:50%;
+  top:-300px;
+  right:-200px;
+  filter:blur(80px);
+}
+.hero::after{
+  content:'';
+  position:absolute;
+  width:500px;
+  height:500px;
+  background:rgba(0,180,216,0.15);
+  border-radius:50%;
+  bottom:-250px;
+  left:-150px;
+  filter:blur(80px);
+}
+
+.hero-container{
+  width:90%;
+  margin:auto;
+  display:grid;
+  grid-template-columns:1.2fr 1fr;
+  align-items:center;
+  gap:60px;
+  position:relative;
+  z-index:2;
+}
+
+
+.hero-left h1 span{
+  color:#1e90ff;
+}
+
+.hero-left p{
+  color:#dce6f2;
+  font-size:20px;
+  max-width:650px;
+  margin-bottom:35px;
+}
+
+.hero-right{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.hero-right img{
+  width:100%;
+  max-width:520px;
+  animation:float 4s ease-in-out infinite;
+}
+
+@keyframes float{
+  0%{
+    transform:translateY(0px);
+  }
+
+  50%{
+    transform:translateY(-15px);
+  }
+
+  100%{
+    transform:translateY(0px);
+  }
+}
+
+  .btn{
+  display:inline-block;
+  padding:16px 38px;
+  background:linear-gradient(135deg,var(--primary),var(--secondary));
+  color:white;
+  text-decoration:none;
+  border-radius:50px;
+  font-weight:600;
+  transition:0.35s;
+  box-shadow:0 10px 20px rgba(13,110,253,0.25);
+}
+
+.btn:hover{
+  transform:translateY(-3px);
+}
+
+    .section-title{
+      text-align:center;
+      margin-bottom:60px;
+    }
+.section-title h2{
+  font-size:42px;
+  color:var(--dark);
+  margin-bottom:15px;
+}
+.why .section-title p{
+  color:#dce6f2 !important;
+}
+.why .section-title h2{
+  color:white !important;
+}
+
+    .section-title p{
+      color:#555;
+      max-width:700px;
+      margin:auto;
+    }
+
+    /* ABOUT */
+
+    .about{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:50px;
+      align-items:center;
+    }
+
+    .about img{
+      width:100%;
+      border-radius:20px;
+      box-shadow:0 10px 25px rgba(0,0,0,0.1);
+    }
+
+    .about-content h3{
+      font-size:34px;
+      margin-bottom:20px;
+      color:var(--primary);
+    }
+
+    /* SERVICES */
+
+    .services{
+      background:var(--light);
+    }
+
+    .service-grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+      gap:30px;
+    }
+
+  .service-card{
+  background:white;
+  padding:45px 35px;
+  border-radius:28px;
+  transition:0.4s;
+  box-shadow:0 15px 40px rgba(0,0,0,0.06);
+  border:1px solid rgba(0,0,0,0.04);
+  position:relative;
+  overflow:hidden;
+}
+
+.service-card::before{
+  content:'';
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:5px;
+  background:linear-gradient(
+    90deg,
+    var(--primary),
+    var(--secondary)
+  );
+}
+
+.service-card:hover{
+  transform:translateY(-12px);
+  box-shadow:0 20px 50px rgba(0,0,0,0.12);
+}
+
+    /* WHY */
+	
+    .why-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:35px;
+  margin-top:60px;
+}
+
+   .why-box{
+  background:rgba(255,255,255,0.08);
+  border:1px solid rgba(255,255,255,0.12);
+  backdrop-filter:blur(10px);
+  padding:40px;
+  border-radius:24px;
+  transition:0.3s;
+  box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+
+.why-box:hover{
+  transform:translateY(-8px);
+}
+
+   .why-box h3{
+  color:#4cc9f0;
+  margin-bottom:18px;
+  font-size:28px;
+}
+.why-box p{
+  color:#dce6f2;
+  font-size:18px;
+  line-height:1.8;
+}
+
+    /* VIDEO */
+
+    .video-section{
+      background:white;
+      text-align:center;
+    }
+
+    .small-video{
+      width:100%;
+      max-width:500px;
+      border-radius:20px;
+      box-shadow:0 10px 25px rgba(0,0,0,0.2);
+    }
+
+    /* GALLERY */
+
+    .gallery{
+      background:var(--light);
+    }
+
+    .gallery-grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+      gap:25px;
+    }
+
+    .gallery-grid img{
+      width:100%;
+      height:320px;
+      object-fit:cover;
+      border-radius:18px;
+      box-shadow:0 5px 15px rgba(0,0,0,0.12);
+      transition:0.3s;
+    }
+
+    .gallery-grid img:hover{
+      transform:scale(1.03);
+    }
+
+    /* CONTRACT */
+
+    .contract{
+      background:white;
+    }
+
+    .contract ul{
+      margin-top:20px;
+      padding-left:20px;
+    }
+
+    /* MISSION */
+
+    .mission-grid{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:30px;
+    }
+
+    .mission-box{
+      background:white;
+      padding:40px;
+      border-radius:20px;
+      box-shadow:0 5px 15px rgba(0,0,0,0.08);
+      border-top:5px solid var(--primary);
+    }
+
+    /* CONTACT */
+
+    .contact{
+      background:var(--dark);
+      color:white;
+      text-align:center;
+    }
+
+    .contact h2{
+      color:white;
+    }
+
+    .contact-box{
+  background:rgba(255,255,255,0.05);
+  border:1px solid rgba(255,255,255,0.08);
+  backdrop-filter:blur(12px);
+  border-radius:30px;
+  padding:50px;
+  max-width:750px;
+  margin:auto;
+  box-shadow:0 10px 40px rgba(0,0,0,0.2);
+}
+
+.contact-box a,
+.footer a{
+  transition:0.3s;
+}
+
+.contact-box a:hover,
+.footer a:hover{
+  color:#00b4d8 !important;
+}
+
+    /* RESPONSIVE */
+
+    .logo-area{
+  display:flex;
+  align-items:center;
+  gap:12px;
+}
+
+.logo-img{
+  width:65px;
+  height:65px;
+  object-fit:cover;
+  border-radius:50%;
+}
+
+.logo-text h2{
+  color:white;
+  font-size:28px;
+  line-height:1;
+  margin-bottom:4px;
+}
+
+.logo-text span{
+  color:#4caf50;
+  font-size:15px;
+  letter-spacing:1px;
+  text-transform:uppercase;
+}
+
+
+.hero{
+  position:relative;
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  overflow:hidden;
+  background:
+  linear-gradient(rgba(0,0,0,0.72),rgba(0,0,0,0.72)),
+  url('image background.jpeg');
+  background-size:cover;
+  background-position:center;
+}
+
+.hero-overlay{
+  position:absolute;
+  inset:0;
+  background:
+  linear-gradient(
+    90deg,
+    rgba(1,10,25,0.95) 0%,
+    rgba(1,10,25,0.85) 45%,
+    rgba(1,10,25,0.3) 100%
+  );
+}
+
+
+.hero-left{
+  color:white;
+}
+
+.hero-left h1{
+  font-size:72px;
+  line-height:1.1;
+  margin-bottom:25px;
+}
+
+.hero-left h1 span{
+  color:#1e90ff;
+}
+
+
+
+.hero-buttons{
+  display:flex;
+  gap:18px;
+  flex-wrap:wrap;
+}
+
+.btn-outline{
+  border:2px solid white;
+  padding:15px 35px;
+  border-radius:50px;
+  text-decoration:none;
+  color:white;
+  font-weight:600;
+  transition:0.3s;
+}
+
+.btn-outline:hover{
+  background:white;
+  color:#111;
+}
+
+.hero-right img{
+  width:100%;
+  max-width:350px;
+  height:auto;
+}
+
+.gallery-card{
+  overflow:hidden;
+  border-radius:24px;
+  background:white;
+  box-shadow:var(--shadow);
+  position:relative;
+}
+
+.gallery-card{
+  position:relative;
+}
+
+.gallery-card::after{
+  content:'Winspec Tank Solution';
+  position:absolute;
+  bottom:15px;
+  left:15px;
+  background:rgba(0,0,0,0.6);
+  color:white;
+  padding:8px 14px;
+  border-radius:30px;
+  font-size:10px;
+  backdrop-filter:blur(10px);
+}
+
+.gallery-card img,
+.gallery-card video{
+  width:100%;
+  height:320px;
+  object-fit:cover;
+  transition:0.5s;
+}
+
+.gallery-card:hover img,
+.gallery-card:hover video{
+  transform:scale(1.08);
+}
+
+.gallery-card:hover{
+  transform:translateY(-8px);
+  transition:0.4s;
+}
+
+.why{
+  background:
+  linear-gradient(90deg,#021024,#031a39,#021024);
+}
+
+
+@media(max-width:950px){
+  nav ul{
+    flex-direction:column;
+    text-align:center;
+    gap:12px;
+  }
+
+
+
+
+/* container*/
+ 
+
+html{
+  scroll-padding-top:100px;
+}
+
+img{
+  max-width:100%;
+}
+
+
+.section-title h2{
+  font-size:48px;
+  font-weight:700;
+}
+
+.section-title p{
+  font-size:18px;
+}
+
+.service-card h3,
+.why-box h3,
+.mission-box h3{
+  font-size:24px;
+}
+
+.service-icon{
+  width:70px;
+  height:70px;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:30px;
+  margin-bottom:25px;
+  background:linear-gradient(
+    135deg,
+    rgba(13,110,253,0.12),
+    rgba(0,180,216,0.12)
+  );
+}
+
+footer{
+  background:#020817;
+  color:#9fb3c8;
+  padding:30px;
+  font-size:15px;
+  text-align:center;
+}
+
+
+  .hero-container{
+    grid-template-columns:1fr;
+    text-align:center;
+    padding-top:120px;
+  }
+
+  .hero-left h1{
+    font-size:48px;
+  }
+  .hero-left h1{
+  font-size:clamp(42px,6vw,72px);
+}
+
+  .hero-left p{
+    margin:auto auto 35px;
+  }
+
+  .hero-buttons{
+    justify-content:center;
+  }
+
+  .hero-right{
+    margin-top:40px;
+  }
+
+  .section-title h2{
+    font-size:36px;
+  }
+
+  nav{
+    flex-direction:column;
+    gap:18px;
+  }
+
+  .nav-right{
+    flex-direction:column;
+  }
+
+  .about,
+  .mission-grid{
+    grid-template-columns:1fr;
+  }
+
+  .hero-stats{
+    justify-content:center;
+  }
+
+}
+
+.hero-stats{
+  display:flex;
+  gap:40px;
+  margin-top:50px;
+  flex-wrap:wrap;
+}
+
+.hero-stats h3{
+  color:white;
+  font-size:32px;
+}
+
+.hero-stats p{
+  color:#c9d6e4;
+  margin-top:5px;
+}
+
+.whatsapp-float{
+  position:fixed;
+  width:52px;
+  height:52px;
+  bottom:20px;
+  right:20px;
+  background:#25D366;
+  color:white;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:22px;
+  text-decoration:none;
+  box-shadow:0 10px 25px rgba(0,0,0,0.18);
+  z-index:9999;
+  transition:0.3s;
+}
+
+.whatsapp-float:hover{
+  transform:scale(1.1);
+}
+
+.trust-section{
+  margin-top:50px;
+  padding-top:40px;
+  border-top:1px solid rgba(255,255,255,0.12);
+}
+
+.trust-section h3{
+  margin-bottom:25px;
+  color:#fff;
+  font-size:24px;
+}
+
+.trust-grid{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:15px;
+}
+
+.trust-grid div{
+  background:rgba(255,255,255,0.08);
+  padding:12px 22px;
+  border-radius:40px;
+  color:#dce6f2;
+  border:1px solid rgba(255,255,255,0.08);
+  font-size:15px;
+}
+
+.cta-section{
+  background:
+  linear-gradient(
+    135deg,
+    #0d6efd,
+    #00b4d8
+  );
+
+  color:white;
+  text-align:center;
+  padding:100px 10%;
+}
+
+.cta-section h2{
+  font-size:48px;
+  margin-bottom:20px;
+}
+
+.cta-section p{
+  max-width:700px;
+  margin:auto auto 35px;
+  font-size:20px;
+}
+
+section{
+  animation:fadeUp 1s ease;
+}
+
+@keyframes fadeUp{
+  from{
+    opacity:0;
+    transform:translateY(40px);
+  }
+
+  to{
+    opacity:1;
+    transform:translateY(0);
+  }
+}
+.footer{
+  background:#020817;
+  color:#dce6f2;
+  padding:70px 10% 30px;
+}
+
+.footer-content{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:40px;
+  margin-bottom:40px;
+}
+
+.footer h3,
+.footer h4{
+  color:white;
+  margin-bottom:18px;
+}
+
+.footer a{
+  display:block;
+  color:#c9d6e4;
+  text-decoration:none;
+  margin-bottom:12px;
+  transition:0.3s;
+}
+
+.footer a:hover{
+  color:var(--secondary);
+}
+
+.footer-bottom{
+  border-top:1px solid rgba(255,255,255,0.08);
+  padding-top:25px;
+  text-align:center;
+  color:#9fb3c8;
+}
+
+.white-title{
+  color:white;
+}
+
+.light-text{
+  color:#ddd;
+}
+.why-title{
+  color:white;
+}
+
+.why-subtitle{
+  color:#dce6f2;
+  font-size:19px;
+}
+
+section{
+  padding:100px 10%;
+}
+
+  </style>
+</head>
+<body>
+
+<div class="top-bar">
+
+  <div class="top-left">
+    ✅ Certified Tank Cleaning Specialists
+  </div>
+
+ <div class="top-right">
+  📞
+  <a href="tel:+254141713980"
+     style="color:#d9e7f5;text-decoration:none;">
+     +254141713980
+  </a>
+</div>
+
+</div>
+
+  <!-- HEADER -->
+
+  <header>
+  <nav>
+
+    <div class="logo-area">
+
+      <img src="logo.jpeg" alt="Winspec Logo" class="logo-img">
+
+      <div class="logo-text">
+        <h2>WINSPEC</h2>
+        <span>Tank Solution</span>
+      </div>
+
+    </div>
+
+    <div class="nav-right">
+
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <a href="tel:+254141713980" class="call-btn">
+        📞 Call Now
+      </a>
+
+    </div>
+
+  </nav>
+</header>
+
+  <!-- HERO -->
+
+<section class="hero" id="home">
+
+  <div class="hero-overlay"></div>
+
+  <div class="hero-container">
+
+    <div class="hero-left">
+
+      <h1>
+        Professional Water Tank
+        <span>Cleaning & Repair</span>
+        Services
+      </h1>
+
+      <p>
+        We specialize in professional water tank cleaning,
+        inspection, restoration, maintenance,
+        and disinfection services across Kenya.
+      </p>
+
+      <div class="hero-buttons">
+
+        <a href="#contact" class="btn">
+          Contact Us Today
+        </a>
+
+        <a href="#gallery" class="btn-outline">
+          View Gallery
+        </a>
+
+      </div>
+
+      <!-- HERO STATS -->
+
+      <div class="hero-stats">
+
+        <div>
+          <h3>500+</h3>
+          <p>Tanks Serviced</p>
+        </div>
+
+        <div>
+          <h3>100%</h3>
+          <p>Client Satisfaction</p>
+        </div>
+
+        <div>
+          <h3>24/7</h3>
+          <p>Support Service</p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="hero-right">
+      <img src="logo.jpeg" alt="Winspec Logo">
+    </div>
+
+  </div>
+
+</section>
+
+  <!-- ABOUT -->
+
+  <section id="about">
+
+    <div class="section-title">
+      <h2>About Us</h2>
+
+      <p>
+        Professional Tank Hygiene & Repair Services
+      </p>
+    </div>
+
+    <div class="about">
+
+   
+   
+  <img src="image-11.jpeg" alt="Tank Cleaning" loading="lazy">
+
+      <div class="about-content">
+
+        <h3>Welcome to Winspec Tank Solution</h3>
+
+        <p>
+          At Winspec Tank Solution, we are committed
+          to helping our clients maintain clean,
+          safe, and reliable water storage systems
+          through professional service delivery,
+          modern cleaning methods, and technical expertise.
+        </p>
+
+        <br>
+
+        <p>
+          From domestic rooftop tanks to large industrial
+          reservoirs and fire water storage systems,
+          our team delivers high-quality tank hygiene
+          and restoration solutions designed to protect
+          water quality, extend tank lifespan,
+          and improve operational reliability.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- SERVICES -->
+
+  <section class="services" id="services">
+
+    <div class="section-title">
+
+      <h2>Our Services</h2>
+
+      <p>
+        We provide complete water tank hygiene,
+        cleaning, inspection, and restoration solutions.
+      </p>
+
+    </div>
+
+    <div class="service-grid">
+
+      <div class="service-card">
+	  <div class="service-icon">💧</div>
+        <h3>💧 Water Tank Cleaning</h3>
+
+        <p>
+          Deep cleaning, sludge removal,
+          pressure washing, disinfection,
+          sanitization, odor removal,
+          and hygiene restoration.
+        </p>
+      </div>
+
+      <div class="service-card">
+	  <div class="service-icon">🛠 </div>
+        <h3> Tank Repairs</h3>
+
+        <p>
+          Leak repairs, crack sealing,
+          corrosion treatment, structural reinforcement,
+          pipe replacements, and internal lining restoration.
+        </p>
+      </div>
+
+      <div class="service-card">
+	  <div class="service-icon">🏢</div>
+        <h3>Commercial Solutions</h3>
+
+        <p>
+          Maintenance programs for apartments,
+          schools, hospitals, hotels, factories,
+          malls, churches, and institutions.
+        </p>
+      </div>
+
+      <div class="service-card">
+	  <div class="service-icon">🔥</div>
+        <h3>Fire Water Tank Services</h3>
+
+        <p>
+          Fire reservoir inspections,
+          foam tank maintenance,
+          sprinkler tank cleaning,
+          and hydrant water storage maintenance.
+        </p>
+      </div>
+
+      <div class="service-card">
+	  <div class="service-icon">🧪 </div>
+        <h3>Disinfection Services</h3>
+
+        <p>
+          Professional bacterial control,
+          algae removal, sanitization,
+          and water hygiene improvement.
+        </p>
+      </div>
+
+      <div class="service-card">
+	  <div class="service-icon">📅</div>
+        <h3>Maintenance Contracts</h3>
+
+        <p>
+          Monthly, quarterly, semi-annual,
+          and annual maintenance schedules
+          tailored to client needs.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- WHY -->
+
+  <section class="why">
+
+    <div class="section-title">
+
+      <h2 class="why-title">Why Choose Us?</h2>
+
+     <p class="why-subtitle">
+        Reliable, professional,
+        and safety-focused operations.
+      </p>
+
+    </div>
+
+    <div class="why-grid">
+
+      <div class="why-box">
+        <h3>Professional Approach</h3>
+
+        <p>
+          We combine engineering knowledge,
+          safety practices,
+          and modern cleaning techniques.
+        </p>
+      </div>
+
+      <div class="why-box">
+        <h3>Safety Focused</h3>
+
+        <p>
+          We follow professional safety procedures,
+          PPE usage, and controlled cleaning practices.
+        </p>
+      </div>
+
+      <div class="why-box">
+        <h3>Reliable Service</h3>
+
+        <p>
+          Quality workmanship,
+          timely response,
+          clean work environments,
+          and customer satisfaction.
+        </p>
+      </div>
+
+      <div class="why-box">
+        <h3>Affordable Solutions</h3>
+
+        <p>
+          Flexible and scalable solutions
+          tailored for homes,
+          businesses, and industrial clients.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- SMALL VIDEO SECTION -->
+
+  
+
+  <!-- GALLERY -->
+
+  <section class="gallery" id="gallery">
+
+  <div class="section-title">
+
+    <h2>Gallery</h2>
+
+    <p>
+      Real inspection, cleaning and restoration work from our operations.
+    </p>
+
+  </div>
+
+  <div class="gallery-grid">
+
+    <div class="gallery-card">
+
+      <video controls muted loop preload="metadata" playsinline>
+        <source src="video-1.mp4" type="video/mp4">
+      </video>
+
+    </div>
+	
+	<div class="gallery-card">
+  <video controls muted loop preload="metadata" playsinline>
+    <source src="video-3.mp4" type="video/mp4">
+  </video>
+</div>
+	<div class="gallery-card">
+
+      <video controls muted loop preload="metadata" playsinline>
+        <source src="video-2.mp4" type="video/mp4">
+      </video>
+
+    </div>
+
+  <div class="gallery-card">
+  <img src="image-1.jpeg" alt="Tank Cleaning" loading="lazy">
+</div>
+
+    <div class="gallery-card">
+      <img src="image-2.jpeg" alt="Tank Cleaning" loading="lazy">
+    </div>
+
+    <div class="gallery-card">
+      <img src="image-3.jpeg" alt="Tank Cleaning" loading="lazy">
+    </div>
+	
+	 <div class="gallery-card">
+      <img src="image-4.jpeg" alt="Tank Cleaning" loading="lazy">
+    </div>
+	
+	 <div class="gallery-card">
+      <img src="image-5.jpeg" alt="Tank Cleaning" loading="lazy">
+    </div>
+
+ <div class="gallery-card">
+      <img src="tank-repair.jpeg" alt="a Repaired and restored Tank " loading="lazy">
+    </div>
+
+ </div>
+	
+
+</section>
+
+  <!-- SERVICE CONTRACTS -->
+
+  <section class="contract">
+
+    <div class="section-title">
+
+      <h2>Service Contracts</h2>
+
+      <p>
+        Flexible maintenance programs designed
+        to keep your water storage systems clean,
+        safe, and operational throughout the year.
+      </p>
+
+    </div>
+
+    <h3>Maintenance Schedules</h3>
+
+    <ul>
+      <li>Monthly Maintenance</li>
+      <li>Quarterly Maintenance</li>
+      <li>Semi-Annual Maintenance</li>
+      <li>Annual Maintenance</li>
+    </ul>
+
+    <br>
+
+    <h3>Activities Covered</h3>
+
+    <ul>
+      <li>Tank draining and sludge removal</li>
+      <li>Internal tank scrubbing and pressure washing</li>
+      <li>Disinfection and sanitization</li>
+      <li>Leak detection and minor repairs</li>
+      <li>Pipework inspections</li>
+      <li>Water quality support</li>
+      <li>Fire water tank inspection and maintenance</li>
+    </ul>
+
+  </section>
+
+  <!-- MISSION -->
+
+  <section>
+
+    <div class="section-title">
+      <h2>Mission & Vision</h2>
+    </div>
+
+    <div class="mission-grid">
+
+      <div class="mission-box">
+
+        <h3>Our Mission</h3>
+
+        <p>
+          To provide professional water tank hygiene,
+          cleaning, and repair solutions that promote
+          safe water storage, system reliability,
+          and customer confidence.
+        </p>
+
+      </div>
+
+      <div class="mission-box">
+
+        <h3>Our Vision</h3>
+
+        <p>
+          To become a trusted leader in water storage
+          hygiene and tank maintenance solutions
+          across East Africa.
+        </p>
+
+      </div>
+
+    </div>
+  </section>
+  
+  <section class="cta-section">
+
+  <h2>
+    Need Professional Tank Cleaning Services?
+  </h2>
+
+  <p>
+    Contact Winspec Tank Solution today
+    for inspection, cleaning, repair,
+    and maintenance services.
+  </p>
+
+  <a href="tel:+254141713980" class="btn">
+    📞 Call Us Now
+  </a>
+  </section>
+
+
+
+  <!-- CONTACT -->
+
+  <section class="contact" id="contact">
+
+    <div class="section-title">
+
+      <h2>Contact Winspec Tank Solution</h2>
+
+      <p class="light-text">
+        Protect your water.
+        Protect your health.
+        Protect your investment.
+      </p>
+
+    </div>
+
+    <div class="contact-box">
+
+      <p>✅ Tank Cleaning</p>
+      <p>✅ Tank Disinfection</p>
+      <p>✅ Tank Repairs</p>
+      <p>✅ Commercial Maintenance Contracts</p>
+      <p>✅ Fire Water Tank Services</p>
+
+      <br>
+
+      <h3>Winspec Tank Solution</h3>
+
+      <p>
+        Professional Tank Hygiene
+        & Repair Services 💧
+      </p>
+
+      <br>
+
+      <!-- REPLACE WITH YOUR DETAILS -->
+
+      <p>
+  📞 Phone:
+  <a href="tel:+254141713980" style="color:#4cc9f0; text-decoration:none;">
+    +254141713980
+  </a>
+</p>
+
+<p>
+  📧 Email:
+  <a href="mailto:winspectanksolution@gmail.com" style="color:#4cc9f0; text-decoration:none;">
+    winspectanksolution@gmail.com
+  </a>
+</p>
+      <p>📍Nairobi, Kenya</p>
+
+    </div>
+	<div class="trust-section">
+
+  <h3>Trusted By</h3>
+
+  <div class="trust-grid">
+
+    <div>🏢 Apartments</div>
+    <div>🏨 Hotels</div>
+    <div>🏫 Schools</div>
+    <div>🏭 Factories</div>
+    <div>⛪ Churches</div>
+
+  </div>
+
+</div>
+
+  </section>
+
+  <!-- FOOTER -->
+
+ <footer class="footer">
+
+  <div class="footer-content">
+
+    <div>
+      <h3>Winspec Tank Solution</h3>
+
+      <p>
+        Professional water tank cleaning,
+        repair, inspection and hygiene services.
+      </p>
+    </div>
+
+    <div>
+
+      <h4>Quick Links</h4>
+
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+
+    </div>
+
+    <div>
+
+      <h4>Contact</h4>
+<p>
+  📞
+  <a href="tel:+254141713980" style="color:#c9d6e4; text-decoration:none;">
+    +254141713980
+  </a>
+</p>
+
+<p>
+  📧
+  <a href="mailto:winspectanksolution@gmail.com" style="color:#c9d6e4; text-decoration:none;">
+    winspectanksolution@gmail.com
+  </a>
+</p>
+      <p>
+  📍
+  <a href="https://maps.google.com/?q=Rhodes+Court+Upperhill+Nairobi"
+     target="_blank"
+     style="color:#4cc9f0; text-decoration:none;">
+     Rhodes Court, Upperhill, Nairobi, Kenya
+  </a>
+</p>
+
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+  © 2026 Winspec Tank Solution | Professional Water Tank Cleaning & Repair Services Kenya
+  </div>
+
+</footer>
+  <a href="https://wa.me/+254141713980"
+   class="whatsapp-float"
+   target="_blank"
+   rel="noopener noreferrer">
+
+   💬
+
+</a>
+
+</body>
+</html>
